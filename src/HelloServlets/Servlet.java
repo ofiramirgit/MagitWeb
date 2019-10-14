@@ -9,7 +9,7 @@ import java.io.Console;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-@WebServlet(name = "Servlet2", urlPatterns = {"/hello", "/kjhfkjhgf", "/Servlet"})
+@WebServlet(name = "Servlet3", urlPatterns = {"/hello", "/kjhfkjhgf", "/Servlet"})
 public class Servlet extends HttpServlet {
     public void doGet(HttpServletRequest req,  HttpServletResponse res) throws ServletException, IOException {
     //    req.setAttribute("username",req.getParameter("username"));
