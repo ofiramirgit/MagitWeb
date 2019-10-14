@@ -16,16 +16,17 @@
 <body>
 <div class="wrap">
     <h2>Login MAGit</h2>
-    <form action="/hello" id="login-form">
-       <input type="text" name="username" placeholder="Usernamee">
+    <form id="login-form">
+       <input id="username" type="text" name="username" placeholder="Username">
         <input id="submit" type="submit">
     </form>
 
 </div>
 
 </body>
-<script src="https://code.jquery.com/jquery-3.4.1.slim.js"
-        integrity="sha256-BTlTdQO9/fascB1drekrDVkaKd9PkwBymMlHOiG+qLI="
+<script
+        src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
         crossorigin="anonymous"></script>
 <script src="login.js"></script>
 
